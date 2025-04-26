@@ -12,7 +12,7 @@ const Card = ({ image, name, price, rating }) => {
   ));
 
   return (
-    <div className="w-[250px] p-4 border rounded-lg shadow-md text-center">
+    <div className="w-[250px] p-4 rounded-md text-center">
       <img src={image} alt={name} className="w-full h-40 object-cover mb-2" />
       <h3 className="text-lg font-semibold">{name}</h3>
       <p className="text-gray-700">₦{price.toLocaleString()}</p>

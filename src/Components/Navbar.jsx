@@ -25,7 +25,7 @@ const Navbar = () => {
           <img src={Logo} alt="Logo" className="h-[30px] pt-2" />
         </Link>
 
-        <ul className="hidden lg:flex gap-4 text-white">
+        <ul className="hidden lg:flex gap-4 text-black">
           <li>
             <Link to="/">Home</Link>
           </li>
